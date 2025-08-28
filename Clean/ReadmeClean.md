@@ -2,7 +2,7 @@
 
 ## 📋 Resumen
 
-El módulo Clean proporciona un **sistema modular completo** para limpieza y análisis de datos de Fórmula 1, siguiendo los principios SOLID y ofreciendo múltiples formas de uso según las necesidades del proyecto.
+El módulo Clean proporciona un **sistema modular completo** para limpieza y análisis de datos de Fórmula 1, ofreciendo múltiples formas de uso según las necesidades del proyecto con una arquitectura bien estructurada.
 
 ---
 
@@ -216,11 +216,11 @@ print(f"Columnas arregladas: {detailed['fixed_columns']}")
 
 ---
 
-## 🏛️ Principios SOLID Implementados
+## 🏛️ Principios de Arquitectura Implementados
 
-- **✅ Responsabilidad Única (SRP)**: Cada módulo tiene una función específica
-- **✅ Abierto/Cerrado (OCP)**: Fácil extensión sin modificar código existente
-- **✅ Inversión de Dependencias (DIP)**: Módulos dependen de abstracciones
+- **✅ Responsabilidad Única**: Cada módulo tiene una función específica y bien definida
+- **✅ Modularidad**: Fácil extensión y mantenimiento sin modificar código existente
+- **✅ Bajo Acoplamiento**: Módulos independientes que pueden trabajar por separado
 
 ---
 
@@ -281,8 +281,8 @@ CSVManager.process_csv_file("archivo.csv", show_detailed_report=True)
 
 El módulo Clean ahora proporciona:
 
-- **✅ Sistema modular profesional** siguiendo principios SOLID
-- **✅ Múltiples formas de uso** según las necesidades
+- **✅ Sistema modular profesional** con arquitectura bien estructurada
+- **✅ Múltiples formas de uso** según las necesidades del proyecto
 - **✅ Compatibilidad completa** con código existente
 - **✅ Reportes detallados** para documentar cambios
 - **✅ Escalabilidad** para futuras funcionalidades
