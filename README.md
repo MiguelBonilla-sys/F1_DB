@@ -80,13 +80,13 @@ Es **altamente recomendable** crear un entorno virtual para este proyecto. Los e
 
 ```bash
 # Crear entorno virtual
-python -m venv venv_formula1
+python -m venv .venv
 
 # Activar en Windows
-venv_formula1\Scripts\activate
+.venv\Scripts\activate
 
 # Activar en Linux/Mac
-source venv_formula1/bin/activate
+source .venv/bin/activate
 ```
 
 2. Instala las dependencias del proyecto:
